@@ -16,18 +16,17 @@ public class InsertionSort {
       for (String datum : data) {
           System.out.println(datum);
       }*/
-    String[] unsorted = {"b","c","a","x","y","e","h","s","e","l"};
+    String[] unsorted = {"b", "c", "a", "x", "y", "e", "h", "s", "e", "l"};
     String[] sorted = sort(unsorted);
-    for( String s : sorted ) System.out.print(s+", ");
-
+    for (String s : sorted) System.out.print(s + ", ");
   }
 
-  public static String[] sort(String[] array){
-    for (int j = 0; j < array.length; j++){
+  public static String[] sort(String[] array) {
+    for (int j = 0; j < array.length; j++) {
       String key = array[j];
-      int i = j -1 ;
-      while (i >= 0 && array[i].compareTo(key) > 0){
-        array[i +1] = array[i];
+      int i = j - 1;
+      while (i >= 0 && array[i].compareTo(key) > 0) {
+        array[i + 1] = array[i];
         i--;
       }
       array[i + 1] = key;

@@ -16,19 +16,16 @@ public class DistributionCountingSort {
     int range = max - min + 1;
 
     int[] count = new int[range];
-      for (int value : arr) count[value - min]++;
+    for (int value : arr) count[value - min]++;
     for (int i = 1; i < range; i++) count[i] += count[i - 1];
     int j = 0;
     for (int i = 0; i < range; i++) while (j < count[i]) arr[j++] = i + min;
-    System.out.println(arrayLength);
-    System.out.println(max);
-    System.out.println(min);
+    System.out.println("Length of the array: " + arrayLength);
+    System.out.println("Max value: " + max);
+    System.out.println("Min value: " + min);
   }
 
   public static void main(String[] args) {
-    //int maxVal = Integer.parseInt(args[0]);
-    //int minVal = Integer.parseInt(args[1]);
-
     int[] testArray = {10, 13, 9, 15, 7, 13};
     System.out.println("Elements before applying countingSort: " + Arrays.toString(testArray));
     sort(testArray);
