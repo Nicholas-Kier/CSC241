@@ -3,33 +3,34 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class InsertionSort {
+
   public static void main(String[] args) throws FileNotFoundException {
-    /*
-    File input = new File(args[0]);
-    Scanner kbs = new Scanner(input);
-    int arrayLength = Integer.parseInt(args[0]);
-    String[] data = new String[arrayLength];
-    for (int i = 0; i < arrayLength; i++) data[i] = (kbs.nextLine());
+    File fileInput = new File(args[1]);
+    Scanner kbs = new Scanner(fileInput);
+    int lengthOfString = Integer.parseInt(args[0]);
+    String[] stringArray = new String[lengthOfString];
 
-      InsertionSort(data);
+    for (int i = 0; i < lengthOfString; i++) {
+      stringArray[i] = (kbs.nextLine());
+    }
 
-      for (String datum : data) {
-          System.out.println(datum);
-      }*/
-    String[] unsorted = {"b", "c", "a", "x", "y", "e", "h", "s", "e", "l"};
-    String[] sorted = sort(unsorted);
-    for (String s : sorted) System.out.print(s + ", ");
+    insertionSortAlgo(stringArray);
+
+    for (int i = 0; i < stringArray.length; i++) {
+      System.out.println(stringArray[i]);
+    }
+    kbs.close();
   }
 
-  public static String[] sort(String[] array) {
+  private static String[] insertionSortAlgo(String[] array) {
     for (int j = 0; j < array.length; j++) {
-      String key = array[j];
+      String stringArray = array[j];
       int i = j - 1;
-      while (i >= 0 && array[i].compareTo(key) > 0) {
+      while (i >= 0 && array[i].compareTo(stringArray) > 0) {
         array[i + 1] = array[i];
         i--;
       }
-      array[i + 1] = key;
+      array[i + 1] = stringArray;
     }
     return array;
   }

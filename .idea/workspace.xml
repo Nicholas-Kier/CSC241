@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2478080b-5e7a-4b03-9661-c59ab952850c" name="Default Changelist" comment="Implementation of the doubly linked list algorithm.">
-      <change afterPath="$PROJECT_DIR$/src/bubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/countingSort.java" afterDir="false" />
+    <list default="true" id="2478080b-5e7a-4b03-9661-c59ab952850c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/InsertionSort3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/distributionCounting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC241/DistributionCountingSort.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CSC241/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC241/InsertionSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CSC241/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC241/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DistributionCountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DistributionCountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DistributionCountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/distributionCountingSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/insertionSort2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/text.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,23 +25,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DistributionCountingSort.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-172">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="768">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/InsertionSort.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/distributionCounting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="1032">
+              <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InsertionSort3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -64,6 +78,11 @@
         <option value="$PROJECT_DIR$/src/countingSort.java" />
         <option value="$PROJECT_DIR$/src/text.txt" />
         <option value="$PROJECT_DIR$/src/DistributionCountingSort.java" />
+        <option value="$PROJECT_DIR$/src/distributionCountingSort.java" />
+        <option value="$PROJECT_DIR$/src/distributionCounting.java" />
+        <option value="$PROJECT_DIR$/src/insertionSort2.java" />
+        <option value="$PROJECT_DIR$/src/InsertionSort3.java" />
+        <option value="$PROJECT_DIR$/src/insertionSort.java" />
         <option value="$PROJECT_DIR$/src/InsertionSort.java" />
       </list>
     </option>
@@ -105,6 +124,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,16 +138,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="DistributionCountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DistributionCountingSort" />
-      <module name="CSC241" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
+  <component name="RunManager" selected="Application.distributionCounting">
+    <configuration name="InsertionSort3" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSort3" />
       <module name="CSC241" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,7 +159,7 @@
     <configuration name="bubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bubbleSort" />
       <module name="CSC241" />
-      <option name="PROGRAM_PARAMETERS" value="56 234 59 212 11 22 33" />
+      <option name="PROGRAM_PARAMETERS" value="6 text.txt 1 6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,23 +168,48 @@
     <configuration name="countingSort" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="countingSort" />
       <module name="CSC241" />
-      <option name="PROGRAM_PARAMETERS" value="text.txt" />
+      <option name="PROGRAM_PARAMETERS" value="3 4 2 1 5 6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="distributionCounting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="distributionCounting" />
+      <module name="CSC241" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="distributionCountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="distributionCountingSort" />
+      <module name="CSC241" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="insertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insertionSort" />
+      <module name="CSC241" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.countingSort" />
-      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.InsertionSort3" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.bubbleSort" />
-      <item itemvalue="Application.DistributionCountingSort" />
+      <item itemvalue="Application.distributionCountingSort" />
+      <item itemvalue="Application.insertionSort2" />
+      <item itemvalue="Application.distributionCounting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DistributionCountingSort" />
+        <item itemvalue="Application.distributionCounting" />
         <item itemvalue="Application.bubbleSort" />
+        <item itemvalue="Application.insertionSort2" />
+        <item itemvalue="Application.distributionCountingSort" />
       </list>
     </recent_temporary>
   </component>
@@ -186,13 +224,21 @@
       <option name="presentableId" value="Default" />
       <updated>1582227335456</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementation of the doubly linked list algorithm.">
+      <created>1582414047637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582414047638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23582767" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.48979592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -200,8 +246,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3251029" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,16 +314,6 @@
     <entry file="file://$USER_HOME$/Data-Structures/IntegerStack.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Data-Structures/BubleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -304,16 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/countingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Data-Structures/DistributionCountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -324,17 +350,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DistributionCountingSort.java">
+    <entry file="file://$PROJECT_DIR$/src/countingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="1464">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/DistributionCountingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/distributionCounting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="43" column="49" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSort3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Data-Structures/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/distributionCountingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="768">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

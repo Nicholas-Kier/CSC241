@@ -1,7 +1,10 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class DistributionCountingSort {
-  private static void sort(int[] arr) {
+public class distributionCountingSort {
+  private static void sort(int[] arr, int value) {
     int arrayLength = arr.length;
     if (arrayLength == 0) return;
     int max = arr[0], min = arr[0];
@@ -25,7 +28,21 @@ public class DistributionCountingSort {
     System.out.println("Min value: " + min);
   }
 
-  public static void main(String[] args) {
+  public static void main(String[] args) throws FileNotFoundException {
+    int num = Integer.parseInt(args[0]);
+    File file = new File(args[1]);
+    int minimum = Integer.parseInt(args[2]);
+    int maximum = Integer.parseInt(args[3]);
+
+    Scanner kbs = new Scanner(file);
+
+    int[] array = new int[num];
+
+    for (int i = 0; i < num; i++) {
+      array[i] = kbs.nextInt();
+    }
+
+    sort(array,num);
     int[] testArray = {10, 13, 9, 15, 7, 13};
     System.out.println("Elements before applying countingSort: " + Arrays.toString(testArray));
     sort(testArray);
