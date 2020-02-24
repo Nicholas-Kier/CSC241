@@ -4,6 +4,19 @@ import java.util.Scanner;
 
 public class InsertionSort {
 
+  private static String[] insertionSortAlgo(String[] array) {
+    for (int j = 0; j < array.length; j++) {
+      String stringArray = array[j];
+      int i = j - 1;
+      while (i >= 0 && array[i].compareTo(stringArray) > 0) {
+        array[i + 1] = array[i];
+        i--;
+      }
+      array[i + 1] = stringArray;
+    }
+    return array;
+  }
+
   public static void main(String[] args) throws FileNotFoundException {
     File fileInput = new File(args[1]);
     Scanner kbs = new Scanner(fileInput);
@@ -20,18 +33,5 @@ public class InsertionSort {
       System.out.println(stringArray[i]);
     }
     kbs.close();
-  }
-
-  private static String[] insertionSortAlgo(String[] array) {
-    for (int j = 0; j < array.length; j++) {
-      String stringArray = array[j];
-      int i = j - 1;
-      while (i >= 0 && array[i].compareTo(stringArray) > 0) {
-        array[i + 1] = array[i];
-        i--;
-      }
-      array[i + 1] = stringArray;
-    }
-    return array;
   }
 }
