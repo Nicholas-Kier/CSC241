@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2478080b-5e7a-4b03-9661-c59ab952850c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HashTableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashTableDemoTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,47 +17,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Merge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HashTableDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/HashTableDemoTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#152#169#0" expanded="true" />
+                <element signature="e#222#239#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InsertionSort3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -90,14 +59,15 @@
         <option value="$PROJECT_DIR$/src/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/Merge.java" />
         <option value="$PROJECT_DIR$/src/HashTableDemo.java" />
+        <option value="$PROJECT_DIR$/src/HashTableDemoTwo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="660" />
-    <option name="y" value="386" />
-    <option name="width" value="1390" />
-    <option name="height" value="1756" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1356" />
+    <option name="y" value="-12" />
+    <option name="width" value="1394" />
+    <option name="height" value="1770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -145,9 +115,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashTableDemo">
+  <component name="RunManager" selected="Application.HashTableDemoTwo">
     <configuration name="HashTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTableDemo" />
+      <module name="CSC241" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTableDemoTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTableDemoTwo" />
       <module name="CSC241" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,25 +179,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="insertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertionSort" />
-      <module name="CSC241" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.countingSort" />
       <item itemvalue="Application.InsertionSort3" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.insertionSort" />
       <item itemvalue="Application.bubbleSort" />
       <item itemvalue="Application.distributionCountingSort" />
       <item itemvalue="Application.distributionCounting" />
       <item itemvalue="Application.HashTableDemo" />
+      <item itemvalue="Application.HashTableDemoTwo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTableDemoTwo" />
         <item itemvalue="Application.HashTableDemo" />
         <item itemvalue="Application.distributionCounting" />
         <item itemvalue="Application.bubbleSort" />
@@ -267,11 +238,19 @@
       <option name="project" value="LOCAL" />
       <updated>1582564810754</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HashTable demonstration">
+      <created>1582565620387</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582565620387</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <frame x="678" y="-6" width="697" height="885" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3834116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -287,7 +266,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32921812" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -336,7 +315,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementation of the doubly linked list algorithm." />
     <MESSAGE value="Assignment number 2 in CSC241, implementing MergeSort and SelectionSort." />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment number 2 in CSC241, implementing MergeSort and SelectionSort." />
+    <MESSAGE value="HashTable demonstration" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashTable demonstration" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/InsertionSort.class">
@@ -438,23 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/InsertionSort3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DistributionCountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -467,7 +430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Merge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="144">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -477,10 +440,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HashTableDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="288">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InsertionSort3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HashTableDemoTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#152#169#0" expanded="true" />
+            <element signature="e#222#239#0" expanded="true" />
           </folding>
         </state>
       </provider>
