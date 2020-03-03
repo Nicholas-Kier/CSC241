@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2478080b-5e7a-4b03-9661-c59ab952850c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MergeTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Merge.java" afterDir="false" />
     </list>
@@ -176,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583196214274</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Thinking emoji">
+      <created>1583199915247</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583199915247</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -187,14 +193,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Thinking emoji" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1092" y="32" key="CommitChangelistDialog2" timestamp="1583199906846">
+    <state x="1092" y="32" key="CommitChangelistDialog2" timestamp="1583199914728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1092" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583199906846" />
+    <state x="1092" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583199914728" />
     <state x="922" y="166" key="SettingsEditor" timestamp="1583196061144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583196061144" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1583199920230">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583199920230" />
     <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1583196677052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
