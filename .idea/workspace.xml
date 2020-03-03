@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2478080b-5e7a-4b03-9661-c59ab952850c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MergeTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Merge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,19 +169,55 @@
       <option name="project" value="LOCAL" />
       <updated>1582737377677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Thinking emoji">
+      <created>1583196214274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583196214274</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementation of the doubly linked list algorithm." />
     <MESSAGE value="Assignment number 2 in CSC241, implementing MergeSort and SelectionSort." />
     <MESSAGE value="HashTable demonstration" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashTable demonstration" />
+    <MESSAGE value="Thinking emoji" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thinking emoji" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1092" y="32" key="CommitChangelistDialog2" timestamp="1583199906846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1092" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583199906846" />
     <state x="922" y="166" key="SettingsEditor" timestamp="1583196061144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583196061144" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1583196677052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1583196677052" />
+    <state x="209" y="0" width="930" height="1019" key="dock-window-2" timestamp="1583198448004">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="209" y="0" width="930" height="1019" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1583198448004" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-3" timestamp="1583197115217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-3/0.0.1920.1040@0.0.1920.1040" timestamp="1583197115217" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-4" timestamp="1583198636066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-4/0.0.1920.1040@0.0.1920.1040" timestamp="1583198636066" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-5" timestamp="1583199337295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-5/0.0.1920.1040@0.0.1920.1040" timestamp="1583199337295" />
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-6" timestamp="1583199337295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="974" height="1047" key="dock-window-6/0.0.1920.1040@0.0.1920.1040" timestamp="1583199337295" />
   </component>
 </project>
