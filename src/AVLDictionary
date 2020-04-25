@@ -1,0 +1,171 @@
+#include <stdio.h>
+
+struct student
+
+{
+  
+char name[50];
+  
+int Age;
+  
+char Country_Name[20];
+  
+char City_Name[20];
+  
+float Height;
+  
+float Weight;
+  
+char Education[20];
+
+} s[8];
+
+
+void getAverage(float,float);
+
+void Increase(float,float);
+
+
+int main()
+
+{
+  
+int i;
+  
+printf("Enter information of students:\n");
+  
+for(i=0; i<8; ++i)
+  
+{
+
+  
+printf("Enter name:\n");
+  
+scanf("%s",s[i].name);
+
+  
+
+printf("Enter Age:\n");
+  
+scanf("%d",&s[i].Age);
+  
+  
+
+printf("Enter Country Name:\n");
+  
+scanf("%s",s[i].Country_Name);
+  
+  
+
+printf("Enter the City Name:\n");
+  
+scanf("%s",s[i].City_Name);
+  
+  
+
+printf("Enter the Height:\n");
+  
+scanf("%f",&s[i].Height);
+  
+  
+
+printf("Enter the Weight:\n");
+  
+scanf("%f",&s[i].Weight);
+  
+  
+
+printf("Enter the education :\n");
+  
+scanf("%s",s[i].Education);
+
+  
+
+printf("\n");
+  
+}
+
+  
+printf("Displaying Information:\n\n");
+  
+for(i=0; i<8; ++i)
+  
+{
+  
+printf("Name: ");
+  
+puts(s[i].name);
+  
+printf("Age: %d\n",s[i].Age);
+  
+printf("Country Name: ");
+  
+puts(s[i].Country_Name);
+  
+printf("City Name: ");
+  
+puts(s[i].City_Name);
+  
+printf("Height: %.1f\n",s[i].Height);
+  
+printf("Weight: %.1f \n",s[i].Weight);
+  
+printf("Education: ");
+  
+puts(s[i].Education);
+  
+printf("\n");
+
+  
+}
+
+getAverage(s[i].Height,s[i].Weight);
+
+Increase(s[0].Height,s[0].Weight);
+  
+  
+return 0;
+
+}
+
+
+void getAverage(float x,float y)
+
+{
+
+int i,total=0,sum=0;
+
+for(i=0;i<8;i++)
+
+{
+
+total += s[i].Weight;
+
+x = total/8;
+
+sum += s[i].Height;
+
+y = sum/8;
+
+}
+
+printf("The average Weight is %.2f\n",x);
+
+printf("The average Height is %.2f\n",y);
+
+}
+
+
+void Increase(float x1,float y1)
+
+{
+
+x1 =(s[0].Weight/5)+(s[0].Weight);
+
+y1 =(s[0].Height/5)+(s[0].Height);
+
+printf("The new weight of person 1: %.2f\n",x1);
+
+printf("The new height of person 1: %.2f",y1);
+
+}
