@@ -1,0 +1,180 @@
+import java.util.*;
+import java.io.*;
+// class to represent AVL node
+class AVLNode{
+   // variable to store the string word
+   String word;
+
+   // store height
+   int h;
+   AVLNode leftChild, rightChild;
+
+   // vector to meaning
+   Vector v;
+
+   // constructor of AVLNode
+   AVLNode(String data,String meaning){
+       word = data;
+       v = new Vector();
+       v.add(meaning);
+       h = 1;
+   }
+}
+
+class AVLTree{
+  
+   // Root node
+   AVLNode Root;
+  
+   static int flag = 0;
+   // function for getting height
+   int getHeight(AVLNode n){
+       if (n == null)
+           return 0;
+
+       return n.h;
+   }
+
+   // function to get maximum
+   int getMax(int x, int y){
+       return (x>y)?x:y;
+   }
+
+   // rotate Right for balancing
+   AVLNode rotateRight(AVLNode input){
+       AVLNode temp1 = input.leftChild;
+       AVLNode temp2 = temp1.rightChild;
+
+       // rotate
+       temp1.rightChild = input;
+       input.leftChild = temp2;
+
+       // update h
+       input.h = getMax(getHeight(input.leftChild), getHeight(input.rightChild)) + 1;
+       temp1.h = getMax(getHeight(temp1.leftChild), getHeight(temp1.rightChild)) + 1;
+
+       //return root
+       return temp1;
+   }
+
+   // rotate left for balancing
+   AVLNode leftRotate(AVLNode input){
+       AVLNode temp1 = input.rightChild;
+       AVLNode temp2 = temp1.leftChild;
+
+       // rotate
+       temp1.leftChild = input;
+       input.rightChild = temp2;
+
+       // update h
+       input.h = getMax(getHeight(input.leftChild), getHeight(input.rightChild)) + 1;
+       temp1.h = getMax(getHeight(temp1.leftChild), getHeight(temp1.rightChild)) + 1;
+
+       // return root
+       return temp1;
+   }
+
+   // get factor of balance
+   int balanceFactor(AVLNode n){
+       if(n == null)
+           return 0;
+
+       return getHeight(n.leftChild) - getHeight(n.rightChild);
+   }
+
+   AVLNode insert(AVLNode root, String word, String meaning){
+
+       // insert according to bst
+       if(root == null)
+           return (new AVLNode(word,meaning));
+
+       if((word.compareTo(root.word)) < 0)
+           root.leftChild = insert(root.leftChild, word,meaning);
+       else if ((word.compareTo(root.word)) > 0)
+           root.rightChild = insert(root.rightChild, word,meaning);
+      
+       // if allready present insert meaning
+       else{
+           (root.v).add(meaning);
+           return root;
+       }
+
+       // update height
+       root.h = 1 + getMax(getHeight(root.leftChild),getHeight(root.rightChild));
+
+       // get balance factor
+       int balFactor = balanceFactor(root);
+
+       // if unbalanced
+       if (balFactor > 1 && (word.compareTo(root.leftChild.word)) < 0)
+           return rotateRight(root);
+
+       // case = right right
+       if (balFactor < -1 && (word.compareTo(root.leftChild.word)) > 0)
+           return leftRotate(root);
+
+       // case = left right
+       if (balFactor > 1 && (word.compareTo(root.leftChild.word)) > 0){
+           root.leftChild = leftRotate(root.leftChild);
+           return rotateRight(root);
+       }
+
+       // case = right left
+       if (balFactor < -1 && (word.compareTo(root.leftChild.word)) < 0){
+           root.rightChild = rotateRight(root.rightChild);
+           return leftRotate(root);
+       }
+
+       // else no change
+       return root;
+   }
+
+   // search
+   void search(AVLNode Root,String word) {
+       if (Root != null) {
+           if(word.equals(Root.word)){
+               flag = 1;
+               for(int i=0;i<Root.v.size();i++)
+                   System.out.println(Root.v.get(i));
+           }
+           this.search(Root.leftChild,word);
+           this.search(Root.rightChild,word);
+       }
+   }
+
+   public static void main(String[] args) throws FileNotFoundException{
+       AVLTree tree = new AVLTree();
+      
+       // in input file word and its meaning is given in each line
+      
+       File input = new File("input.txt");
+       Scanner sc = new Scanner(input);
+       Scanner scan = new Scanner(System.in);
+
+       while (sc.hasNextLine()){
+           String read = sc.nextLine();
+           String arr[] = read.split(" ");
+           String word = arr[0];
+           String meaning = read.substring(arr[0].length()+1);
+           tree.Root = tree.insert(tree.Root,word,meaning);
+       }
+       System.out.println(tree.getHeight(tree.Root));
+      
+
+       while(true){
+           System.out.print(" ");
+           String command = scan.next();
+           if(command.equals("SEARCH")){
+               String word = scan.next();
+               flag = 0;
+               tree.search(tree.Root,word);
+               if(flag == 0)
+                   System.out.println("Word does not exist");
+           }
+           else if(command.equals("EXIT"))
+               break;
+           else
+               System.out.println("Invalid Command");
+       }
+   }
+}
